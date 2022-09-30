@@ -17,6 +17,8 @@ pm2 start index.js
 
 with watch 
 
+(PM2 can automatically restart your application when a file is modified in the current directory or its subdirectories:)
+
 pm2 start start index.js --watch
 
 to run python in pm2
